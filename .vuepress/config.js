@@ -6,8 +6,8 @@ module.exports = {
     locales: {
         '/': {
             lang: 'en-US',
-            title: 'Response Docs',
-            description: 'Documentation for the Lavra Response project.'
+            title: 'Lavra Response',
+            description: 'Learn about Response and get started today!'
         }
     },
     themeConfig: {
