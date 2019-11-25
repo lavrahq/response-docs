@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get Started →
-actionLink: /home/
+actionLink: /home
 features:
     - title: Simple
       details: Response is designed to be simple to deploy, administer, and use. The docs are designed to be easily read and understood.
