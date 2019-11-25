@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     base: '/',
-    dest: path.join(path.resolve(__dirname), '../dist'),
+    dest: path.join(path.resolve(__dirname), '../public'),
     locales: {
         '/': {
             lang: 'en-US',
