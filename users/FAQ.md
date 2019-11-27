@@ -27,5 +27,12 @@ an account for security purposes.
 
 ## Why do I see the dark theme?
 
-You may notice that you see the dark theme in Response by default while others may not. This is due to your Operating System preference.
-You can override this setting using `Preferences` or by changing your OS settings to prefer light instead of dark.
+You may notice that you see the dark theme in Response by default while others may not. This is due to your Operating
+System preference. You can override this setting using `Preferences` or by changing your OS settings to prefer light
+instead of dark.
+
+## Why does Response flicker when first loading?
+
+Ah, yes. This can be annoying for sure. This is due to the theme being automaticlly set based on your OS preference and
+the OS preference is different than the theme you've selected either as a User or Browser preference in Response. The
+flicker often won't happen at all, it depends on how quickly your browser updates the style based on your preferences.
