@@ -3,6 +3,14 @@ const path = require('path');
 module.exports = {
     base: '/',
     dest: path.join(path.resolve(__dirname), '../public'),
+    plugins: [
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-146592251-1'
+            }
+        ]
+    ],
     locales: {
         '/': {
             lang: 'en-US',
@@ -64,13 +72,5 @@ module.exports = {
                 },
             ]
         },
-    },
-    plugins: [
-        [
-            '@vuepress/google-analytics',
-            {
-                'ga': 'UA-146592251-1'
-            }
-        ]
-    ]
+    }
 }
