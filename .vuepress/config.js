@@ -30,11 +30,11 @@ module.exports = {
                     },
                     {
                         text: 'Admins',
-                        link: '/admins',
+                        link: '/admins/',
                     },
                     {
                         text: 'Developers',
-                        link: '/developers',
+                        link: '/developers/',
                     },
                     {
                         text: 'Discord',
