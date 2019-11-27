@@ -11,13 +11,14 @@ module.exports = {
         }
     },
     themeConfig: {
-        repo: 'lavrahq/response-docs',
+        repo: 'lavrahq/response',
+        docsRepo: 'lavrahq/response-docs',
         editLinks: true,
         locales: {
             '/': {
                 label: 'English',
                 selectText: '中文',
-                editLinkText: 'Edit this page on GitHub',
+                editLinkText: 'Help us improve this page!',
                 nav: [
                     {
                         text: 'Home',
@@ -64,4 +65,12 @@ module.exports = {
             ]
         },
     },
+    plugins: [
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-146592251-1'
+            }
+        ]
+    ]
 }
